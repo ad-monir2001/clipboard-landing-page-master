@@ -1,18 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
-:root{
-    --fonts: "Bai Jamjuree", sans-serif;
+:root {
+  --fonts: "Bai Jamjuree", sans-serif;
 
-    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
-    --Grayish-Blue: hsl(201, 11%, 66%);
-    --Strong-Cyan: hsl(171, 66%, 44%);
-    --Light-Blue: hsl(233, 100%, 69%);
+  --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+  --Grayish-Blue: hsl(201, 11%, 66%);
+  --Strong-Cyan: hsl(171, 66%, 44%);
+  --Light-Blue: hsl(233, 100%, 69%);
 }
 
 /* ! remove default */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background: url(./images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  font-family: var(--fonts);
+}
+
+.green__btn {
+  background-color: var(--Strong-Cyan);
+  color: #ffffff;
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-family: var(--fonts);
+  font-weight: 500;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 8px 1px var(--Strong-Cyan);
+  cursor: pointer;
+}
+.blue__btn {
+  background-color: var(--Light-Blue);
+  color: #ffffff;
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-family: var(--fonts);
+  font-weight: 500;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 8px 1px var(--Light-Blue);
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+
+/** Style rule for hero section **/
+
+.hero__section {
+  text-align: center;
+  margin: 4rem auto;
+}
+
+.hero__logo img {
+  width: 60px;
+  margin-bottom: 1rem;
+}
+
+.hero__texts h1{
+    color: var(--Dark-Grayish-Blue);
+    margin-bottom: 1rem;
+}
+
+.hero__texts p{
+    color: var(--Grayish-Blue);
+    margin-bottom: 1rem;
+}
+
+/** style rule for track section **/
