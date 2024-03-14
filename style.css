@@ -250,7 +250,7 @@ footer {
     gap: 1rem;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1441px) {
   body {
     background: none;
   }
