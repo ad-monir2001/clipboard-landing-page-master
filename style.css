@@ -162,6 +162,12 @@ p {
   margin: 3rem 0;
 }
 
+.clip__buttons{
+  flex-direction: row;
+  gap: 1.9rem;
+  justify-content: center;
+}
+
 /** style rule for footer section **/
 
 footer {
@@ -240,4 +246,14 @@ footer {
     text-align: center;
     gap: 1rem;
   }
+}
+@media screen and (min-width: 1440px) {
+  body{
+    background: none;
+  }
+  .clipboard img {
+    width: 50%;
+    margin: 4rem 0;
+  }
+  
 }
