@@ -162,7 +162,7 @@ p {
   margin: 3rem 0;
 }
 
-.clip__buttons{
+.clip__buttons {
   flex-direction: row;
   gap: 1.9rem;
   justify-content: center;
@@ -196,7 +196,7 @@ footer {
 /* ! media query */
 
 @media screen and (max-width: 375px) {
-  body{
+  body {
     background: url(./images/bg-header-mobile.png);
     background-repeat: no-repeat;
   }
@@ -204,27 +204,30 @@ footer {
     display: flex;
     flex-direction: column;
   }
-  .blue__btn,.green__btn{
+  .blue__btn,
+  .green__btn {
     width: 90%;
   }
   .track__text {
     padding: 0 1.9rem;
   }
-  .track__items{
+  .track__items {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 0 1.9rem;
     position: static;
   }
-  .track__item__left{
+  .track__item__left {
     position: static;
     margin-bottom: 2.5rem;
   }
   .track__item__right__text {
     text-align: center;
   }
-  .clipboard,.workflow,.clip__texts {
+  .clipboard,
+  .workflow,
+  .clip__texts {
     padding: 0 1.9rem;
   }
   .workflow__items {
@@ -235,12 +238,12 @@ footer {
     flex-direction: column;
     gap: 2.5rem;
   }
-  .clip__buttons{
+  .clip__buttons {
     flex-direction: column;
     gap: 1.5rem;
     padding: 0 1.9rem;
   }
-  footer{
+  footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -248,12 +251,11 @@ footer {
   }
 }
 @media screen and (min-width: 1440px) {
-  body{
+  body {
     background: none;
   }
   .clipboard img {
     width: 50%;
     margin: 4rem 0;
   }
-  
 }
